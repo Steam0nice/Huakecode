@@ -1,0 +1,24 @@
+.Xc_list_item:hover{opacity:1;border-radius:8px;transform:translateY(-4px);box-shadow:0 2px 10px rgb(0 0 0 / 15%);animation:index-link-active 1s cubic-bezier(0.315,0.605,0.375,0.925) forwards}
+.Xc_list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+.Xc_list .index3{padding:0px;margin-bottom:0;width:calc(100% - 0px)}
+.Xc_list_item{position:relative;width:100%;transition:.35s;background:var(--background);border-radius:var(--radius-wrap);box-shadow:var(--box-shadow)}
+.Xc_list_item ul{width:100%}
+.Xc_card-img{position:relative;overflow:hidden;padding-bottom:60%;width:100%;height:0}
+.Xc_card-img img{position:absolute;overflow:hidden;width:100%;height:100%;border-radius:6px 6px 0 0;object-fit:cover}
+.Xc_card-main{margin:0;padding:10px}
+.Xc_card-title{display:-webkit-box;overflow:hidden;margin-top:5px;margin-bottom:5px;max-height:3em;min-height:3em;color:var(--main);white-space:normal;font-size:14px;line-height:1.4em;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+.Xc_card-title .Xc_card-title-link{margin-right:5px;padding:0 3px;border-radius:4px;color:var(--main);font-size:15px}
+.Xc_card-region{display:flex;align-items:center;overflow:hidden;margin-bottom:8px;white-space:nowrap}
+.Xc_card-region a{display:inline-block;margin-right:5px;padding:2px 5px;border-radius:4px;background:var(--theme);color:#fff;text-align:center;font-size:11px}
+.Xc_card-tags a{border-radius:4px;background:var(--classB);color:var(--routine)}
+.Xc_card-tags a:before{content:"#"}
+.Xc_card-information{display:flex;padding-top:3px;color:var(--minor);font-size:12px;align-items:center;justify-content:space-between}
+.Xc_card-details-left{display:flex;align-items:center}
+.Xc_card-details-left li{margin:0 10px 0 0}
+.Xc_card-details-left li img{position:relative;display:inline-block;display:inline-block;width:20px;height:20px;border-radius:100px;vertical-align:middle;flex-shrink:0}
+.Xc_card-details-right{display:flex}
+.Xc_card-details-right .iconfont.icon-zan{padding-left:5px}
+
+@media (max-width:768px){
+html .index3 .Xc_card-img {padding-bottom:40%}
+}
